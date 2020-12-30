@@ -4,7 +4,22 @@
 
 # openapi-types-aws
 
-OpenApi Types based on https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-types
+OpenApi V3 Types based on https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-types but extended with AWS Extensions like
+
+```JSON
+"x-amazon-apigateway-integration": {
+  "uri": "arn:aws:apigateway:eu-central-1:lambda:path/2015-03-31/functions/arn:aws:lambda:eu-central-1:981237193288:function:getOneConfApi/invocations",
+  "passthroughBehavior": "when_no_match",
+  "httpMethod": "POST",
+  "type": "aws_proxy"
+},
+```
+
+For type support in Python at compiler time you need to declare the Document directly!
+
+# Features
+
+- OpenApi V3 supported
 
 # Example
 

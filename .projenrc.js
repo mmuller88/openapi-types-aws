@@ -10,7 +10,7 @@ const project = new JsiiProject({
   name: 'openapi-types-aws',
   repositoryUrl: 'https://github.com/mmuller88/openapi-types-aws',
   deps: deps,
-  devDeps: deps,
+  bundledDeps: deps,
   python: {
     distName: 'openapi-types-aws',
     module: 'open_types_aws',

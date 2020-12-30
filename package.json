@@ -45,7 +45,6 @@
     "jsii-pacmak": "^1.16.0",
     "jsii-release": "^0.2.10",
     "json-schema": "^0.2.5",
-    "openapi-types": "^7.0.1",
     "projen": "^0.12.7",
     "standard-version": "^9.0.0",
     "ts-jest": "^26.4.4",
@@ -54,7 +53,9 @@
   "dependencies": {
     "openapi-types": "^7.0.1"
   },
-  "bundledDependencies": [],
+  "bundledDependencies": [
+    "openapi-types"
+  ],
   "keywords": [
     "aws",
     "extension",

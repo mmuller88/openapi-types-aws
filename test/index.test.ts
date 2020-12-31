@@ -1,7 +1,7 @@
 /* eslint-disable quote-props */
 import * as openapi from '../src/index';
 test('create', () => {
-  const api: openapi.Document = {
+  const api: openapi.OpenAPIObjectAWS = {
     openapi: '3.0.2',
     info: {
       title: 'Swagger Petstore - OpenAPI 3.0',

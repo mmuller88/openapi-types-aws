@@ -45,26 +45,6 @@
       "type": "build"
     },
     {
-      "name": "jsii",
-      "type": "build"
-    },
-    {
-      "name": "jsii-diff",
-      "type": "build"
-    },
-    {
-      "name": "jsii-docgen",
-      "type": "build"
-    },
-    {
-      "name": "jsii-pacmak",
-      "type": "build"
-    },
-    {
-      "name": "jsii-release",
-      "type": "build"
-    },
-    {
       "name": "json-schema",
       "type": "build"
     },
@@ -88,11 +68,7 @@
       "type": "build"
     },
     {
-      "name": "openapi-types",
-      "type": "bundled"
-    },
-    {
-      "name": "openapi-types",
+      "name": "openapi3-ts",
       "type": "runtime"
     }
   ],

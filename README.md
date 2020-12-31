@@ -4,7 +4,7 @@
 
 # openapi-types-aws
 
-OpenApi V3 Types based on https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-types but extended with AWS Extensions like
+OpenApi V3 Types based on https://github.com/metadevpro/openapi3-ts but extended with AWS Extensions like
 
 ```JSON
 "x-amazon-apigateway-integration": {
@@ -26,7 +26,7 @@ For type support in Python at compiler time you need to declare the Document dir
 ```ts
 import * as openapi from 'openapi-types-aws';
 
-const openApi: openapi.Document = {
+const openApi: openapi.OpenAPIObjectAWS = {
   openapi: '3.0.2',
   info: {
     title: 'Swagger Petstore - OpenAPI 3.0',
